@@ -10,11 +10,16 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.img-responsive {
+  max-width: 100%;
 }
 
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 .copyright {
   display: block;
@@ -116,5 +121,9 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
 }
